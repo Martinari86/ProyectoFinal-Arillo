@@ -32,12 +32,18 @@
     }
     
     .mainIndex-articuloIndex2__imagenPortada{
-        width: 300px;
-        height: auto;
+        width: auto;
+        height: 40vh;
+        padding: 10px;
     }
     
     .mainIndex-articuloIndex2__textoPortada{
         font-size: 40px;      
+    }
+
+    .mainIndex-articuloIndex2__textoPortada:hover {
+        font-size: 50px;
+    
     }
     
     .mainIndex-articuloIndex3__textoPedidosYa{
@@ -260,12 +266,16 @@
     }
     
     .mainIndex-articuloIndex2__imagenPortada{
-        width: 300px;
-        height: auto;
+        width: auto;
+        height: 50vh;
     }
     
     .mainIndex-articuloIndex2__textoPortada{
         font-size: 40px;      
+    }
+
+    .mainIndex-articuloIndex2__textoPortada:hover {
+        font-size: 50px;
     }
     
     .mainIndex-articuloIndex3__textoPedidosYa{

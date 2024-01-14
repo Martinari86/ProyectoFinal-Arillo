@@ -3,12 +3,14 @@
 #mainIndex{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20% repeat(2,1fr);
+    grid-template-rows: 20vh 60vh 20vh;
+    /*grid-template-rows: 20% repeat(2,1fr);*/
     grid-template-areas: 
     "articuloIndex1"
     "articuloIndex2"
     "articuloIndex3";
-    background-color: red;
+    background: rgb(255,0,0);
+    background: linear-gradient(151deg, rgba(255,0,0,1) 35%, rgba(255,255,255,1) 100%);
     gap: 20px
 }
 
@@ -45,8 +47,9 @@
 
 .mainIndex-articuloIndex2__imagenPortada{
     width: auto;
-    height: auto;
+    height: 60vh;
     border-radius: 75%;
+    border: 2px solid transparent;
 }
 
 .mainIndex-articuloIndex2__textoPortada{
@@ -54,7 +57,7 @@
     font-family: 'Vina Sans', sans-serif;
     color:white;
     text-decoration:none;
-    margin: 50px;
+    border: 2px solid transparent;
     text-shadow: 4px 2px 9px black;
     
 }
