@@ -9,7 +9,6 @@
     "articuloIndex1"
     "articuloIndex2"
     "articuloIndex3";
-    background: rgb(255,0,0);
     background: linear-gradient(151deg, rgba(255,0,0,1) 35%, rgba(255,255,255,1) 100%);
     gap: 20px
 }
@@ -56,6 +55,7 @@
     font-size: 90px;
     font-family: 'Vina Sans', sans-serif;
     color:white;
+    background-color: transparent;
     text-decoration:none;
     border: 2px solid transparent;
     text-shadow: 4px 2px 9px black;

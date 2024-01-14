@@ -1,12 +1,19 @@
 /* PSEUDOCLASES */
 
 
-
+.mainIndex-articuloIndex2__textoPortada:hover
+{
+    transform: scale(1.2,1.2);
+    transition: 1s;
+    box-shadow: 2px -1px 94px 17px white;
+    -webkit-box-shadow: 2px -1px 94px 17px white;
+    -moz-box-shadow: 2px -1px 94px 17px white;
+}
 
 .mainIndex-articuloIndex3__imagenPedidosYa:hover
 {
-    width: 175px;
-    height: auto;
+    transform: scale(1.1,1.1);
+    transition: 1s;
     box-shadow: 2px -1px 94px 17px white;
     -webkit-box-shadow: 2px -1px 94px 17px white;
     -moz-box-shadow: 2px -1px 94px 17px white;
@@ -15,4 +22,13 @@
 .nav-link:hover{
     font-weight: bold !important;
 }
+
+.header__logo:hover{
+    transform: scale(1.05,1.05);
+    transition: 1s;
+    box-shadow: 2px -1px 94px 17px white;
+    -webkit-box-shadow: 2px -1px 94px 17px white;
+    -moz-box-shadow: 2px -1px 94px 17px white;
+}
+
 

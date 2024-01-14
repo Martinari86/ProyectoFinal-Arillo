@@ -2,13 +2,13 @@
 
 #cuerpoSucursales{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-template-rows: 100px 1fr 100px;
     grid-template-areas: 
     "header"
     "main"
     "footer";
-    background-color: red;
+    background: linear-gradient(151deg, rgba(255,0,0,1) 35%, rgba(255,255,255,1) 100%);
     justify-content:space-evenly;
 }
 
