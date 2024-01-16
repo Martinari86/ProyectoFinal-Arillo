@@ -11,13 +11,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/style.css">
     
     <title>Memphis American Burgers</title>
 </head>
 
 <body id="cuerpoPrincipal">
-    <!-- Header con logo y menú a la derecha -->
+
     <header id="header">
       <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
@@ -39,55 +40,35 @@
                 <li class="nav-item">
                   <a class="nav-link" href="./contacto.html">Contacto </a>
                 </li>
-                <!-- 
-                  <li class="nav-item"> 
-                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
-                -->
               </ul>
             </div>
           </div>
         </nav>
         </header>
-     
-    <!--  
-    <header id="header">
-        <a href="./principal.html"><img class="header__logo" src="../imagenes/memphis1.JPG" title="Home" alt="Home"> </a>
-            <nav class="header__menu">
-                <ul class="header-menu__navegacion">
-                    <a class="header-menu-navegacion__enlace" href="./hamburguesas.html"> <li class="header-menu-navegacion__texto">Hamburguesas</li> </a>
-                    <a class="header-menu-navegacion__enlace" href="./nosotros.html"> <li class="header-menu-navegacion__texto">Nosotros</li> </a>
-                    <a class="header-menu-navegacion__enlace" href="./sucursales.html"> <li class="header-menu-navegacion__texto">Sucursales</li> </a>
-                    <a class="header-menu-navegacion__enlace" href="./contacto.html"> <li class="header-menu-navegacion__texto">Contacto</li> </a>
-                </ul>
-            </nav>
-    </header>
-    -->
     
     <main id="mainPrincipal">
+
         <article class="mainPrincipal__articulo1">
             <h1 class="mainPrincipal-articulo1__texto">Únicas en Mendoza</h1>
         </article>
 
         <article class="mainPrincipal__articulo2">
-            <!-- Iria un banner con fotos alternandose -->
-            <img class="mainPrincipal-articulo2__imagen1" src="../imagenes/promo1.JPG" title="promo1" alt="promo1">
-            <img class="mainPrincipal-articulo2__imagen2" src="../imagenes/promo2.JPG" title="promo2" alt="promo2">
-            <img class="mainPrincipal-articulo2__imagen3" src="../imagenes/promo3.JPG" title="promo3" alt="promo3">
+            <img class="mainPrincipal-articulo2__imagen1 animate__animated animate__fadeInRight" src="../imagenes/promo1.JPG" title="imagenPromocion1" alt="imagenPromocion1">
+            <img class="mainPrincipal-articulo2__imagen2 animate__animated animate__fadeInRight animate__delay-1s	" src="../imagenes/promo2.JPG" title="imagenPromocion2" alt="imagenPromocion2">
+            <img class="mainPrincipal-articulo2__imagen3 animate__animated animate__fadeInRight animate__delay-2s	" src="../imagenes/promo3.JPG" title="imagenPromocion3" alt="imagenPromocion3">
         </article>
           
-        <article class="mainPrincipal__articulo3">       
-
+        <article class="mainPrincipal__articulo3">      
           <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="mainPrincipal-articulo3__imagen1" src="../imagenes/resena2.JPG" class="d-block" alt="Reseña2">
+                <img class="mainPrincipal-articulo3__imagen1" src="../imagenes/resena2.JPG" class="d-block" title="imagenReseña2" alt="imagenReseña2">
               </div>
               <div class="carousel-item">
-                <img class="mainPrincipal-articulo3__imagen2" src="../imagenes/resena4.JPG" class="d-block" alt="Reseña4">
+                <img class="mainPrincipal-articulo3__imagen2" src="../imagenes/resena4.JPG" class="d-block" title="imagenReseña4" alt="imagenReseña4">
               </div>
               <div class="carousel-item">
-                <img class="mainPrincipal-articulo3__imagen3" src="../imagenes/resena1.JPG" class="d-block" alt="Reseña1">
+                <img class="mainPrincipal-articulo3__imagen3" src="../imagenes/resena1.JPG" class="d-block" title="imagenReseña1" alt="imagenReseña1">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -98,26 +79,14 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>  
-        
-        
-            <!-- Iria un banner con comentarios alternandose
-            <h1 class="mainPrincipal-articulo3__texto">Nuestros Clientes</h1>
-            <div class="mainPrincipal-articulo3__div">
-            <img class="mainPrincipal-articulo3__imagen1" src="../imagenes/resena2.JPG" title="fotoResena2" alt="fotoResena2">
-            <img class="mainPrincipal-articulo3__imagen2" src="../imagenes/resena4.JPG" title="fotoResena4" alt="fotoResena4">
-            <img class="mainPrincipal-articulo3__imagen3" src="../imagenes/resena1.JPG" title="fotoResena1" alt="fotoResena1">
-            </div> -->
-            
+          </div> 
         </article>
         
     </main>
 
     <footer id="footer">
-        <!-- Contacto y logo de pedidos ya -->
         <h2 class="footer__texto animate__animated animate__bounce animate__repeat-3">Encontranos en Pedidos Ya</h2>
         <a class="footer__enclace animate__animated animate__bounce animate__repeat-3" href="http://www.pedidosya.com.ar" target="_blank"> <img class="footer__imagen" src="../imagenes/pedidosya.jfif" title="icono" alt="icono"> </a>
-        
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

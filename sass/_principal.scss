@@ -22,6 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin:50px;
 }
 
 .mainPrincipal__articulo2{
@@ -29,6 +30,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin:50px;
 }
 
 .mainPrincipal__articulo3{
@@ -44,8 +46,7 @@
     text-align: center;
     font-family: 'Lato', sans-serif;
     color:white;
-    text-shadow: 4px 2px 9px black;
-    
+    text-shadow: 4px 2px 9px black;    
 }
 
 
@@ -80,5 +81,7 @@
     height: auto;
     border-radius: 25px;
     padding: 10px;
+    margin: 50px;
     
 }
+

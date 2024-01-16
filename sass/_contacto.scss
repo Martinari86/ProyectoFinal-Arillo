@@ -3,7 +3,7 @@
 #cuerpoContacto{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100px 80vh 100px;
+    grid-template-rows: 100px 85vh 100px;
     grid-template-areas: 
     "header"
     "main"
@@ -41,11 +41,11 @@
     flex-direction: column; 
 }
 
-.mainContacto-articulo2__formulario{
+.mainContacto-articulo2{
     display: flex;
     align-items:flex-start;
     flex-direction: column; 
-    justify-content:space-evenly;
+    justify-content:space-around;
 }
 
 .mainContacto-articulo2-formulario__linea1,

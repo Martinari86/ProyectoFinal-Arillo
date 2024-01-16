@@ -274,6 +274,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 50px;
 }
 
 .mainPrincipal__articulo2 {
@@ -281,6 +282,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: 50px;
 }
 
 .mainPrincipal__articulo3 {
@@ -329,6 +331,7 @@ body {
   height: auto;
   border-radius: 25px;
   padding: 10px;
+  margin: 50px;
 }
 
 /* Estilo SUCURSALES */
@@ -480,7 +483,7 @@ body {
 #cuerpoContacto {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 100px 80vh 100px;
+  grid-template-rows: 100px 85vh 100px;
   grid-template-areas: "header" "main" "footer";
   background: linear-gradient(151deg, rgb(255, 0, 0) 35%, rgb(255, 255, 255) 100%);
   justify-content: space-evenly;
@@ -513,11 +516,11 @@ body {
   flex-direction: column;
 }
 
-.mainContacto-articulo2__formulario {
+.mainContacto-articulo2 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .mainContacto-articulo2-formulario__linea1,
@@ -555,6 +558,54 @@ body {
 .mainContacto-articulo2-formulario-linea5__input5 {
   width: 70%;
   height: 50px;
+}
+
+/* Modificaciones a estilos de BOOTSTRAP */
+.nav-item {
+  font-size: 25px !important;
+  font-weight: lighter;
+  text-shadow: 4px 2px 9px black;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.carousel-item {
+  justify-content: center !important;
+}
+
+.navbar-nav {
+  background-color: transparent !important;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+}
+
+.mb-3 {
+  border: 0px !important;
+  background-color: transparent !important;
+}
+
+.card-title {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 4px 2px 9px black;
+}
+
+.card-text {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 4px 2px 9px black;
+}
+
+.navbar-brand {
+  margin-left: 10px !important;
 }
 
 /* PSEUDOCLASES */
@@ -745,10 +796,10 @@ body {
   }
   /* Media Query Contacto */
   .mainContacto-articulo2-formulario-linea1__etiqueta1,
-  .mainContacto-articulo2-formulario-linea1__etiqueta2,
-  .mainContacto-articulo2-formulario-linea1__etiqueta3,
-  .mainContacto-articulo2-formulario-linea1__etiqueta4,
-  .mainContacto-articulo2-formulario-linea1__etiqueta5 {
+  .mainContacto-articulo2-formulario-linea2__etiqueta2,
+  .mainContacto-articulo2-formulario-linea3__etiqueta3,
+  .mainContacto-articulo2-formulario-linea4__etiqueta4,
+  .mainContacto-articulo2-formulario-linea5__etiqueta5 {
     font-size: 20px;
     align-content: center;
   }
@@ -757,10 +808,10 @@ body {
     text-align: center;
   }
   .mainContacto-articulo2-formulario-linea1__input1,
-  .mainContacto-articulo2-formulario-linea1__input2,
-  .mainContacto-articulo2-formulario-linea1__input3,
-  .mainContacto-articulo2-formulario-linea1__input4,
-  .mainContacto-articulo2-formulario-linea1__input5 {
+  .mainContacto-articulo2-formulario-linea2__input2,
+  .mainContacto-articulo2-formulario-linea3__input3,
+  .mainContacto-articulo2-formulario-linea4__input4,
+  .mainContacto-articulo2-formulario-linea5__input5 {
     width: 70%;
     height: 30px;
   }
@@ -771,6 +822,12 @@ body {
   .footer__imagen {
     width: 100px;
     height: 100%;
+  }
+  .navbar-nav {
+    background-color: red !important;
+  }
+  .navbar-collapse {
+    z-index: 100;
   }
 }
 @media (min-width: 711px) and (max-width: 1000px) {
@@ -851,53 +908,12 @@ body {
     text-align: center;
     padding: 20px;
   }
-}
-/* Modificaciones a estilos de BOOTSTRAP */
-.nav-item {
-  font-size: 25px !important;
-  font-weight: lighter;
-  text-shadow: 4px 2px 9px black;
-}
-
-.nav-link {
-  color: white !important;
-}
-
-.carousel-item {
-  justify-content: center !important;
-}
-
-.navbar-nav {
-  background-color: transparent !important;
-}
-
-.navbar-toggler-icon {
-  color: white !important;
-}
-
-.mb-3 {
-  border: 0px !important;
-  background-color: transparent !important;
-}
-
-.card-title {
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-size: 30px;
-  text-align: center;
-  text-shadow: 4px 2px 9px black;
-}
-
-.card-text {
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  text-shadow: 4px 2px 9px black;
-}
-
-.navbar-brand {
-  margin-left: 10px !important;
+  .navbar-nav {
+    background-color: red !important;
+  }
+  .navbar-collapse {
+    z-index: 100;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

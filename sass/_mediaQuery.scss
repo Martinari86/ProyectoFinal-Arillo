@@ -203,10 +203,10 @@
     /* Media Query Contacto */
 
     .mainContacto-articulo2-formulario-linea1__etiqueta1,
-    .mainContacto-articulo2-formulario-linea1__etiqueta2,
-    .mainContacto-articulo2-formulario-linea1__etiqueta3,
-    .mainContacto-articulo2-formulario-linea1__etiqueta4,
-    .mainContacto-articulo2-formulario-linea1__etiqueta5{
+    .mainContacto-articulo2-formulario-linea2__etiqueta2,
+    .mainContacto-articulo2-formulario-linea3__etiqueta3,
+    .mainContacto-articulo2-formulario-linea4__etiqueta4,
+    .mainContacto-articulo2-formulario-linea5__etiqueta5{
     
         font-size: 20px;
         align-content: center;
@@ -220,10 +220,10 @@
     }
 
     .mainContacto-articulo2-formulario-linea1__input1,
-    .mainContacto-articulo2-formulario-linea1__input2,
-    .mainContacto-articulo2-formulario-linea1__input3,
-    .mainContacto-articulo2-formulario-linea1__input4,
-    .mainContacto-articulo2-formulario-linea1__input5{
+    .mainContacto-articulo2-formulario-linea2__input2,
+    .mainContacto-articulo2-formulario-linea3__input3,
+    .mainContacto-articulo2-formulario-linea4__input4,
+    .mainContacto-articulo2-formulario-linea5__input5{
         width: 70%;
         height: 30px;
     }
@@ -238,6 +238,15 @@
         width: 100px;
         height: 100%;
         
+    }
+
+    //Media Querie para Header
+    .navbar-nav{ 
+        background-color: red !important;
+    }
+
+    .navbar-collapse{
+        z-index: 100;
     }
   
 
@@ -345,5 +354,14 @@
         text-align: center;
         padding: 20px;
     }  
+
+    //Media Querie para Header
+    .navbar-nav{ 
+        background-color: red !important;
+    }
+    
+    .navbar-collapse{
+        z-index: 100;
+    }
 }
 
