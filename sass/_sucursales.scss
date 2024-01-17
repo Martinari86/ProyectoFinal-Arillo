@@ -10,6 +10,7 @@
     "footer";
     background: linear-gradient(151deg, rgba(255,0,0,1) 35%, rgba(255,255,255,1) 100%);
     justify-content:space-evenly;
+    min-height: 100vh;
 }
 
 #mainSucursales{
@@ -32,6 +33,7 @@
     font-family: 'Lato', sans-serif;
     color:white;
     text-shadow: 4px 2px 9px black;
+    margin:50px;
 }
 
 .mainSucursales__articulo2{

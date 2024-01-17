@@ -10,6 +10,7 @@
     "footer";
     background: linear-gradient(151deg, rgba(255,0,0,1) 35%, rgba(255,255,255,1) 100%);
     justify-content:space-evenly;
+    min-height: 100vh;
 }
 
 #mainNosotros{
@@ -29,8 +30,8 @@
 .mainNosotros__articulo1{
     text-align: center;
     align-items: center;
+    justify-content: center;
     color:white;
-    margin: 50px;
 }
 
 .mainNosotros-articulo1__texto1{
@@ -38,14 +39,17 @@
     font-family: 'Lato', sans-serif;
     color:white;
     text-shadow: 4px 2px 9px black;
+    margin-top: 50px;
 }
 
 .mainNosotros-articulo1__texto2{
     font-size: 100px;
     font-family: 'Lato', sans-serif;
     color:white;
-    margin-top: 150px;
+    margin-top: 50px;
     text-shadow: 4px 2px 9px black;
+    align-items: center;
+    justify-content: center;
 }
 
 .mainNosotros-articulo2__CV1,

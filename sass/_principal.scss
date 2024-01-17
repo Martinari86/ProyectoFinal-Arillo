@@ -9,6 +9,7 @@
     "main"
     "footer";
     background: linear-gradient(151deg, rgba(255,0,0,1) 35%, rgba(255,255,255,1) 100%);
+    min-height: 100vh;
     gap: 20px
 }
 
@@ -16,13 +17,14 @@
     grid-area: main;
     display: flex;
     flex-direction: column;
+    min-height: 100%;
 }
 
 .mainPrincipal__articulo1{ 
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin:50px;
+   
 }
 
 .mainPrincipal__articulo2{
@@ -30,19 +32,20 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin:50px;
+    
 }
 
 .mainPrincipal__articulo3{
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    flex-direction: column;   
+    flex-direction: column;
+     
     
 }
 
 .mainPrincipal-articulo1__texto{
-    font-size: 550%;
+    font-size: 100px;
     text-align: center;
     font-family: 'Lato', sans-serif;
     color:white;
@@ -81,7 +84,6 @@
     height: auto;
     border-radius: 25px;
     padding: 10px;
-    margin: 50px;
     
 }
 

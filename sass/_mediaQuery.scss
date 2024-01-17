@@ -70,18 +70,23 @@
     .mainPrincipal-articulo2__imagen1,
     .mainPrincipal-articulo2__imagen2,
     .mainPrincipal-articulo2__imagen3{
-        width: 300px;    
+        width: 250px;    
     }
 
     .mainPrincipal-articulo3__texto{
         font-size: 30px;
         }
 
+  
     .mainPrincipal-articulo3__imagen1,
     .mainPrincipal-articulo3__imagen2,
     .mainPrincipal-articulo3__imagen3{
-        width: 500px;
-    }
+    width: 250px;
+    height: auto;
+    border-radius: 25px;
+    padding: 10px;
+    
+}
     
 
     /*Media Query Hamburguesas */
@@ -149,7 +154,7 @@
         font-size: 40px;
         font-family: 'Lato', sans-serif;
         color:white;
-        margin-top: 100px;
+        margin-top: 50px;
         text-shadow: 4px 2px 9px black;
     }
 
@@ -230,6 +235,13 @@
 
     /* Media Query para FOOTER */
     
+    #footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+
     .footer__texto{
         font-size: 15px;  
     }
@@ -336,7 +348,7 @@
         font-size: 50px;
         font-family: 'Lato', sans-serif;
         color:white;
-        margin-top: 100px;
+        margin-top: 50px;
         text-shadow: 4px 2px 9px black;
     }
 
